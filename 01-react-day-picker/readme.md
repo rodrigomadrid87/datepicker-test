@@ -1,3 +1,3 @@
 # 01 react-day-picker
 
-Example of react-day-picker
+react-day-picker example
