@@ -1,0 +1,15 @@
+  .DayPicker{
+      width: 200px;
+      outline: none;
+      abbr[title], abbr[data-original-title]
+      {
+        cursor:default;
+      }
+
+      .overlayStyle {
+          position: 'absolute';
+          background: 'white';
+          boxShadow: '0 2px 5px rgba(0, 0, 0, .15)';
+      }
+
+  }
