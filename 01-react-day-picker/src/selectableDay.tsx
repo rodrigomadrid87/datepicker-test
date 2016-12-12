@@ -63,16 +63,16 @@ export class SelectableDay extends React.Component<Props, State> {
     }
 
     handleInputBlur() {
-        const showOverlay = this.clickedInside;
-
-        this.setState({
-            showOverlay,
-        } as State);
-
-        // Force input's focus if blur event was caused by clicking on the calendar
-        if (showOverlay) {
-            this.input.focus();
-        }
+        // const showOverlay = this.clickedInside;
+        //
+        // this.setState({
+        //     showOverlay,
+        // } as State);
+        //
+        // // Force input's focus if blur event was caused by clicking on the calendar
+        // if (showOverlay) {
+        //     this.input.focus();
+        // }
     }
 
     handleContainerMouseDown() {
